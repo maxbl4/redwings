@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Протоколы гонок</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/">Протоколы</a>
+  <nav>
+    <a href="#/" data-nav="races">Гонки</a>
+    <a href="#/rider" data-nav="rider">Гонщики</a>
+    <a href="#/rating" data-nav="rating">Рейтинг XC</a>
+  </nav>
+  <label class="toggle top-opt" title="Первый круг обычно короче: старт дают не от линии круга. По умолчанию он не учитывается в лучшем круге.">
+    <input type="checkbox" id="firstLap"> <span>Учитывать 1-й круг</span>
+  </label>
+</header>
+<main id="app"></main>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

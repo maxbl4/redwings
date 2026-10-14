@@ -1,0 +1,11 @@
+# генерируется tools/parse_protocols.py (и при сборке Docker-образа)
+site/data.js
+site/protocols/
+
+# старый формат ФМСР — не поддерживается
+protocols_old_format/
+
+# локальное
+.claude/
+__pycache__/
+*.pyc

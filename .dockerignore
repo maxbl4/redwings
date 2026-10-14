@@ -1,0 +1,8 @@
+*
+!Dockerfile
+!docker/
+!tools/
+!protocols/
+!site/index.html
+!site/app.js
+!site/style.css
