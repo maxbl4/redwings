@@ -4,135 +4,277 @@
     "level": "top",
     "rank": "МСМК",
     "text": "Чемпион России по мотокроссу (250, 2010–2011) и суперкроссу (125, 2001, 2004). 12-кратный чемпион России по эндуро (2025). Сборная России на Кроссе наций 2005, ЧМ MX1 2007, серебро ЧЕ Open 2010",
-    "sources": ["https://riamo.ru/news/sport/podmoskovnyj-motogonschik-v-12-j-raz-stal-chempionom-rossii/", "https://www.zr.ru/archive/moto/2012/04/chiempion", "http://proenduro.ru/parshin_dmitriy"]
+    "sources": [
+      "https://riamo.ru/news/sport/podmoskovnyj-motogonschik-v-12-j-raz-stal-chempionom-rossii/",
+      "https://www.zr.ru/archive/moto/2012/04/chiempion",
+      "http://proenduro.ru/parshin_dmitriy"
+    ]
   },
   "Алесенко Иван": {
     "level": "top",
-    "text": "Чемпион России по эндуро 2023, 2024 (E1), 2025 (E1). Сборная МФР по эндуро. Победы в Кубке МФР по мотокроссу на льду (MX-Speedway)",
-    "sources": ["https://www.mfr.ru/news/itogi-chempionata-rossii-2024-po-enduro/", "https://www.mfr.ru/news/itogi-pervogo-etapa-chempionata-rossii-2025-po-enduro-v-sheregeshe/", "https://www.mfr.ru/news/sportsmeny-sbornoy-komandy-mfr-po-motokrossu-i-enduro-poluchili-novye-mototsikly/"]
+    "text": "Чемпион России по эндуро 2023, 2024 (E1), 2025 (E1). Сборная МФР по эндуро. Победы в Кубке МФР по мотокроссу на льду (MX-Speedway). В юности: победитель Открытого кубка ДОСААФ России 2017 (85), 6-е место ПР по суперкроссу 2017 (85)",
+    "sources": [
+      "https://www.mfr.ru/news/itogi-chempionata-rossii-2024-po-enduro/",
+      "https://www.mfr.ru/news/itogi-pervogo-etapa-chempionata-rossii-2025-po-enduro-v-sheregeshe/",
+      "https://www.mfr.ru/news/sportsmeny-sbornoy-komandy-mfr-po-motokrossu-i-enduro-poluchili-novye-mototsikly/",
+      "https://mx4u.ru/races/x.1485.html?mod=results",
+      "https://mx4u.ru/races/x.1568.html?mod=results"
+    ],
+    "rank": "МС"
   },
   "Комков Даниил": {
     "level": "top",
     "rank": "МС",
     "text": "Чемпион Европы по кантри-кроссу 2018. Многократный чемпион России по эндуро, бронза ЧР по эндуро 2024 (E2)",
-    "sources": ["https://bsemoto.pro/bseracingteam/daniil-komkov/", "http://proenduro.ru/komkov_daniil", "https://www.mfr.ru/news/itogi-chempionata-rossii-2024-po-enduro/"]
+    "sources": [
+      "https://bsemoto.pro/bseracingteam/daniil-komkov/",
+      "http://proenduro.ru/komkov_daniil",
+      "https://www.mfr.ru/news/itogi-chempionata-rossii-2024-po-enduro/"
+    ]
   },
   "Тихончик Иван": {
     "level": "top",
     "rank": "МС",
-    "text": "Победитель чемпионатов и первенств России по мотокроссу и суперкроссу (по данным клуба ЦАМК). Обладатель Кубка МФР по мотокроссу на льду 2025 («Спорт MX1»)",
-    "sources": ["https://www.tsamk.ru/motosport/sektsiya-motokrossa/82-sektsiya-motokrossa", "https://www.mfr.ru/news/01-marta-2025-g-v-moskve-na-ldu-bolshogo-krylatskogo-pruda-sostoyalsya-grand-final-kubka-mfr-po-moto/", "http://mx4u.ru/pilots/tihonchik-ivan-olegovich.1043.html"]
+    "text": "Победитель чемпионатов и первенств России по мотокроссу и суперкроссу (по данным клуба ЦАМК). Обладатель Кубка МФР по мотокроссу на льду 2025 («Спорт MX1»). 4-е места на этапах ЧР по суперкроссу 2012 и 2013 (MX Open), 5-е место на этапе ЧР по мотокроссу 2015 (MX Open), чемпион СЗФО по мотокроссу",
+    "sources": [
+      "https://www.tsamk.ru/motosport/sektsiya-motokrossa/82-sektsiya-motokrossa",
+      "https://www.mfr.ru/news/01-marta-2025-g-v-moskve-na-ldu-bolshogo-krylatskogo-pruda-sostoyalsya-grand-final-kubka-mfr-po-moto/",
+      "http://mx4u.ru/pilots/tihonchik-ivan-olegovich.1043.html",
+      "https://mx4u.ru/races/x.696.html?mod=results",
+      "https://mx4u.ru/races/x.1198.html?mod=results",
+      "https://mx4u.ru/pilots/x.1043.html"
+    ]
   },
   "Комлев Максим": {
     "level": "top",
     "rank": "МС",
-    "text": "Бронза ЧР по мотокроссу 2025 (MX-Open 35+). Победитель Кубка МФР среди ветеранов (45–52) 2025 и 2026",
-    "sources": ["https://www.mfr.ru/news/MMT-RGP25-round8-results/", "https://rgpmx.ru/news/65", "https://motogonki.ru/mx/19-02-2018_motokross_pamjati_v_m_arbekova_2018_rezultaty.html"]
+    "text": "Бронза ЧР по мотокроссу 2025 (MX-Open 35+). Победитель Кубка МФР среди ветеранов (45–52) 2025 и 2026. 5-е место на этапе ЧР по суперкроссу 2017 (Open-2)",
+    "sources": [
+      "https://www.mfr.ru/news/MMT-RGP25-round8-results/",
+      "https://rgpmx.ru/news/65",
+      "https://motogonki.ru/mx/19-02-2018_motokross_pamjati_v_m_arbekova_2018_rezultaty.html",
+      "https://mx4u.ru/races/x.1568.html?mod=results"
+    ]
   },
   "Столпер Виталий": {
     "level": "top",
     "rank": "КМС",
     "text": "Лучший в открытом классе ЧР по эндуро 2025; команда называет его чемпионом России по эндуро 2022. 2-е место Кубка МФР по мотокроссу на льду 2026",
-    "sources": ["https://bsemoto.pro/bseracingteam/vitaliy-stolper/", "https://www.mfr.ru/news/enduro-russian-championship-kemerovo25-2-results/", "https://www.mfr.ru/news/lyed-na-grani-final-sostoyalsya/"]
+    "sources": [
+      "https://bsemoto.pro/bseracingteam/vitaliy-stolper/",
+      "https://www.mfr.ru/news/enduro-russian-championship-kemerovo25-2-results/",
+      "https://www.mfr.ru/news/lyed-na-grani-final-sostoyalsya/"
+    ]
   },
   "Назаров Владислав": {
     "level": "top",
     "rank": "МС",
-    "text": "Основатель и тренер Nazarov MX School. Ветеранские победы: 3-е место Кубка МФР 2015 (45–52), 1-е место «Золотая осень» 2017",
-    "sources": ["https://motogonki.ru/mx/19-02-2018_motokross_pamjati_v_m_arbekova_2018_rezultaty.html", "https://www.mfr.ru/news/rezultaty-kubka-mfr-kubka-dosaaf-rossosh/"]
+    "text": "Основатель и тренер Nazarov MX School. Ветеранские победы: 3-е место Кубка МФР 2015 (45–52), 1-е место «Золотая осень» 2017. 7-е место на этапе ЧР по суперкроссу 2017 (Open-2), многократный победитель ветеранских гонок 2017–2018",
+    "sources": [
+      "https://motogonki.ru/mx/19-02-2018_motokross_pamjati_v_m_arbekova_2018_rezultaty.html",
+      "https://www.mfr.ru/news/rezultaty-kubka-mfr-kubka-dosaaf-rossosh/",
+      "https://mx4u.ru/races/x.1568.html?mod=results"
+    ]
   },
   "Орехов Алексей": {
     "level": "top",
     "rank": "МС",
     "text": "Победитель Кубка России по мотокроссу 2007, призёр Кубка России по суперкроссу, чемпион России по питбайкам 2015. Тренер мотошколы Воскресенска",
-    "sources": ["http://motocross.ru/riders/?rider_id=100", "https://life.ru/p/1684043"]
+    "sources": [
+      "http://motocross.ru/riders/?rider_id=100",
+      "https://life.ru/p/1684043"
+    ]
   },
   "Бурдаков Степан": {
     "level": "national",
     "rank": "КМС",
-    "text": "Призёр Первенства России, победитель Кубка России, чемпион ЦФО (250, 2021) — по данным его мотошколы",
-    "sources": ["http://burmx.ru/", "https://faktor-info.ru/3169006-podmoskovnye-sportsmeny-zavoevali-devjaty-medalej-na-pervenstve-cfo-po-motokrossu.html"]
+    "text": "Призёр Первенства России, победитель Кубка России, чемпион ЦФО (250, 2021) — по данным его мотошколы. 3-е место на этапе ЧР и Первенства России 2016 (125 юниоры), 5-е и 6-е места на этапах ПР 2015 (125 юноши)",
+    "sources": [
+      "http://burmx.ru/",
+      "https://faktor-info.ru/3169006-podmoskovnye-sportsmeny-zavoevali-devjaty-medalej-na-pervenstve-cfo-po-motokrossu.html",
+      "https://mx4u.ru/races/x.1364.html?mod=results",
+      "https://mx4u.ru/races/x.1198.html?mod=results"
+    ]
   },
   "Курашев Сергей": {
     "level": "national",
-    "rank": "МС",
-    "text": "Чемпион ЮФО и СКФО по мотокроссу, победитель Кубка России (по данным команды BSE)",
-    "sources": ["https://bsemoto.pro/bseracingteam/sergey-kurashev/"]
+    "rank": "КМС",
+    "text": "Чемпион ЮФО и СКФО по мотокроссу, победитель Кубка России (по данным команды BSE, где указан МС; в протоколах — КМС)",
+    "sources": [
+      "https://bsemoto.pro/bseracingteam/sergey-kurashev/",
+      "https://mx4u.ru/pilots/x.3220.html"
+    ]
   },
   "Кольчугин Илья": {
     "level": "national",
     "text": "Обладатель Кубка МФР по мотокроссу на льду 2026 (Open MX-1), победы на всех трёх этапах",
-    "sources": ["https://www.mfr.ru/news/lyed-na-grani-final-sostoyalsya/"]
+    "sources": [
+      "https://www.mfr.ru/news/lyed-na-grani-final-sostoyalsya/"
+    ]
   },
   "Полежаев Артём": {
     "level": "national",
-    "text": "Победитель Первенства России по квадрокроссу 2019, 4-е место Первенства России по мотокроссу 2020 (85), чемпион Московской области 2022 (125)",
-    "sources": ["https://maximaoils.ru/persona/motokross/5660/"]
+    "text": "Победитель Первенства России по квадрокроссу 2019, 4-е место Первенства России по мотокроссу 2020 (85), чемпион Московской области 2022 (125). Победитель этапа Первенства ЦФО 2017 (65)",
+    "sources": [
+      "https://maximaoils.ru/persona/motokross/5660/",
+      "https://mx4u.ru/races/x.1560.html?mod=results"
+    ],
+    "rank": "2 разряд"
   },
   "Жмылев Дмитрий": {
     "level": "national",
     "rank": "1 разряд",
-    "text": "3-е место на этапе ЧР по суперкроссу 2024 (MX-1), участник ЧР по мотокроссу RGP MX 2026 (MX1)",
-    "sources": ["https://www.mfr.ru/news/winline-chempionat-rossii-po-superkrossu-2024-zavershilsya-v-krasnodare/", "https://www.mx4u.ru/pilots/zhmilev-dmitriy.4680.html"]
+    "text": "3-е место на этапе ЧР по суперкроссу 2024 (MX-1), участник ЧР по мотокроссу RGP MX 2026 (MX1). В юности: 4-е место на этапе ПР 2015 (65), 4-е место Открытого кубка ДОСААФ России 2016 (85)",
+    "sources": [
+      "https://www.mfr.ru/news/winline-chempionat-rossii-po-superkrossu-2024-zavershilsya-v-krasnodare/",
+      "https://www.mx4u.ru/pilots/zhmilev-dmitriy.4680.html",
+      "https://mx4u.ru/races/x.1198.html?mod=results",
+      "https://mx4u.ru/races/x.1356.html?mod=results"
+    ]
   },
   "Ивачев Федор": {
     "level": "national",
     "text": "3-е место на этапе ЧР по суперкроссу 2024 (125 юниоры)",
-    "sources": ["https://www.mfr.ru/news/winline-chempionat-rossii-po-superkrossu-2024-zavershilsya-v-krasnodare/"]
+    "sources": [
+      "https://www.mfr.ru/news/winline-chempionat-rossii-po-superkrossu-2024-zavershilsya-v-krasnodare/"
+    ]
   },
   "Пашковец Александр": {
     "level": "national",
-    "text": "Участник Первенства России по мотокроссу (MX-125 2Т), победитель первенств ПФО и ЦФО, призёр Первенства Московской области",
-    "sources": ["https://velosportmo.ru/news/154/", "https://riamo.ru/news/sport/sbornaja-podmoskovja-vyigrala-etap-chempionata-rossii-po-motokrossu-2/"]
+    "text": "Участник Первенства России по мотокроссу (MX-125 2Т), победитель первенств ПФО и ЦФО, призёр Первенства Московской области. 5-е место на этапе ЧР и Первенства России по суперкроссу 2025 (85)",
+    "sources": [
+      "https://velosportmo.ru/news/154/",
+      "https://riamo.ru/news/sport/sbornaja-podmoskovja-vyigrala-etap-chempionata-rossii-po-motokrossu-2/",
+      "https://mx4u.ru/races/x.1838.html?mod=results"
+    ],
+    "rank": "1 разряд"
   },
   "Шамшин Даниил": {
     "level": "regional",
     "text": "2-е место среди юниоров 125 (мотокросс в Обнинске, 2026), дебют на этапе ЧР RGP MX 2026 (MX2)",
-    "sources": ["https://www.kp40.ru/news/sport/146020/"]
+    "sources": [
+      "https://www.kp40.ru/news/sport/146020/"
+    ]
   },
   "Журавлев Андрей": {
     "level": "regional",
     "text": "Четырёхкратный чемпион Свердловской области по мотокроссу, чемпион Кубка Урала по эндуро 2020, чемпион Челябинской области по эндуро 2021",
-    "sources": ["https://www.avantsb.ru/blog/sostav-komandy-avantis-racing-team-na-2024-god/"]
+    "sources": [
+      "https://www.avantsb.ru/blog/sostav-komandy-avantis-racing-team-na-2024-god/"
+    ]
   },
   "Галиуллин Ильяс": {
     "level": "regional",
     "text": "Многократный чемпион Татарстана, Поволжья и Ульяновской области по мотокроссу",
-    "sources": ["https://bsemoto.pro/bseracingteam/bse-racing-team-galiullin/"]
+    "sources": [
+      "https://bsemoto.pro/bseracingteam/bse-racing-team-galiullin/"
+    ]
   },
   "Серов Тимофей": {
     "level": "regional",
     "text": "2-е место на этапе Первенства Московской области по мотокроссу (85)",
-    "sources": ["https://www.mfr.ru/news/federatsiya-mototsikletnogo-sporta-moskovskoy-oblasti-i-administratsiya-g-zarayska-proveli-traditsio/"]
+    "sources": [
+      "https://www.mfr.ru/news/federatsiya-mototsikletnogo-sporta-moskovskoy-oblasti-i-administratsiya-g-zarayska-proveli-traditsio/"
+    ]
   },
   "Баранчеев Андрей": {
-    "level": "regional",
-    "text": "3-е место Кубка МФР по мотокроссу среди ветеранов 2026 (группа А)",
-    "sources": ["https://rgpmx.ru/news/65"]
+    "level": "national",
+    "text": "3-е место Кубка МФР по мотокроссу среди ветеранов 2026 (группа А). 10-е место на этапе ЧР по мотокроссу 2013 (Open-2)",
+    "sources": [
+      "https://rgpmx.ru/news/65",
+      "https://mx4u.ru/races/x.806.html?mod=results"
+    ],
+    "rank": "КМС"
   },
   "Баранчеев Максим": {
-    "level": "regional",
-    "text": "Призёр Кубка XSR-MOTO.RU по кантри-кроссу (2009, 2012)",
-    "sources": ["http://www.xsr-moto.ru/sport/7-kubok-xsr-motoru-po-kantri-krossu-2009/31-itogovye-rezulltaty-kk-2009.html"]
+    "level": "national",
+    "text": "Призёр Кубка XSR-MOTO.RU по кантри-кроссу (2009, 2012). Участник этапов ЧР и Первенства России по суперкроссу 2025 (250)",
+    "sources": [
+      "http://www.xsr-moto.ru/sport/7-kubok-xsr-motoru-po-kantri-krossu-2009/31-itogovye-rezulltaty-kk-2009.html",
+      "https://mx4u.ru/races/x.1834.html?mod=results"
+    ],
+    "rank": "1 разряд"
   },
   "Майер Дмитрий": {
     "level": "regional",
     "text": "Хард-эндуро: топ-5 в высших классах любительских гонок (OFRP 2025, «В щепки» 2026)",
-    "sources": ["https://enduro-club.ru/651", "https://enduro-club.ru/1101"]
+    "sources": [
+      "https://enduro-club.ru/651",
+      "https://enduro-club.ru/1101"
+    ]
   },
   "Гамбаров Дмитрий": {
     "level": "regional",
     "text": "Хард-эндуро: 8-е место в классе «Про» (OFRP 2025)",
-    "sources": ["https://enduro-club.ru/651"]
+    "sources": [
+      "https://enduro-club.ru/651"
+    ]
   },
   "Шамшин Петр": {
     "level": "regional",
     "text": "Участник ЧР RGP MX 2026 (класс Open), первенство ЦФО 35+",
-    "sources": ["https://motogonki.ru/mx/19-06-2026_motokross_dlja_takayama_mx_team_5-j_etap_rgp_mx_chempionata_rossii_okazalsja_neprostym_no_rezultativnym.html"]
+    "sources": [
+      "https://motogonki.ru/mx/19-06-2026_motokross_dlja_takayama_mx_team_5-j_etap_rgp_mx_chempionata_rossii_okazalsja_neprostym_no_rezultativnym.html"
+    ]
   },
   "Жучихин Алексей": {
     "level": "regional",
     "text": "Хард-эндуро: 12-е место в классе «Хобби» из ~128 («В щепки» 2024)",
-    "sources": ["https://enduro-club.ru/352"]
+    "sources": [
+      "https://enduro-club.ru/352"
+    ]
+  },
+  "Сидоров Антон": {
+    "level": "national",
+    "rank": "КМС",
+    "text": "Участник этапов ЧР по мотокроссу: 2013 (125), 2015 — 4-е место на этапе ЧР и молодёжного первенства России (MX Open)",
+    "sources": [
+      "https://mx4u.ru/races/x.1198.html?mod=results",
+      "https://mx4u.ru/races/x.806.html?mod=results",
+      "https://mx4u.ru/pilots/sidorov-anton.3570.html"
+    ]
+  },
+  "Семенков Дмитрий": {
+    "level": "top",
+    "rank": "МС",
+    "text": "Участник этапа ЧР по мотокроссу 2013 (Open-2), призёр Открытого чемпионата Владимира 2017 (40+)",
+    "sources": [
+      "https://mx4u.ru/races/x.806.html?mod=results",
+      "https://mx4u.ru/pilots/x.3625.html"
+    ]
+  },
+  "Сидоров Алексей": {
+    "level": "top",
+    "rank": "МС",
+    "text": "6-е место Открытого кубка ДОСААФ России 2016 (MX Open), 14-е место на этапе ЧР по мотокроссу 2013 (Open-2)",
+    "sources": [
+      "https://mx4u.ru/races/x.1356.html?mod=results",
+      "https://mx4u.ru/races/x.806.html?mod=results"
+    ]
+  },
+  "Лаврентьев Эдуард": {
+    "level": "regional",
+    "rank": "КМС",
+    "text": "Победитель всех 4 этапов Открытого чемпионата г. Владимира по мотокроссу 2017 (MX 160)",
+    "sources": [
+      "https://mx4u.ru/races/x.1506.html?mod=results",
+      "https://mx4u.ru/races/x.1509.html?mod=results"
+    ]
+  },
+  "Коробов Марк": {
+    "level": "national",
+    "rank": "КМС",
+    "text": "Участник этапа ЧР по мотокроссу 2013 (125)",
+    "sources": [
+      "https://mx4u.ru/races/x.806.html?mod=results"
+    ]
+  },
+  "Антохин Захар": {
+    "level": "national",
+    "rank": "1 разряд",
+    "text": "4-е место на этапе Чемпионата и Первенства России по суперкроссу 2025 (85)",
+    "sources": [
+      "https://mx4u.ru/races/x.1838.html?mod=results"
+    ]
   }
 }

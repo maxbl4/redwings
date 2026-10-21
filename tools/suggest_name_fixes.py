@@ -5,13 +5,14 @@
 """
 import collections
 import json
+import re
 import os
 import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 src = open(os.path.join(ROOT, 'site', 'data.js'), encoding='utf-8').read()
-races = json.loads(src[src.index('=') + 1:].rstrip().rstrip(';'))
+races = json.loads(re.search(r'window\.RACES = (.*?);\n', src, re.S).group(1))
 
 
 def key(n):

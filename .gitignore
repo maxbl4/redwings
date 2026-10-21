@@ -9,3 +9,6 @@ protocols_old_format/
 .claude/
 __pycache__/
 *.pyc
+
+# кэш внешних источников (mx4u.ru и т.п.)
+cache/
