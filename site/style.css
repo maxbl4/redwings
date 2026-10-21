@@ -193,3 +193,23 @@ details.method summary { cursor: pointer; color: var(--text); }
 
 .years { margin: 0; }
 .years .chip .n { font-size: 11px; opacity: .65; margin-left: 2px; }
+
+/* заслуги: значок кубка и подсказка */
+.trophy { display: inline-flex; vertical-align: -2px; margin-left: 4px; cursor: help; border-radius: 4px; color: #d4a017; }
+.trophy svg { width: 14px; height: 14px; fill: currentColor; }
+
+.trophy:focus-visible { outline: 2px solid var(--accent); }
+h2 .trophy svg { width: 18px; height: 18px; }
+.trophy.static { cursor: default; margin: 0 4px 0 0; }
+.tip {
+  position: fixed; z-index: 50; max-width: 340px; padding: 8px 10px; border-radius: 8px;
+  background: var(--panel); color: var(--text); border: 1px solid var(--line);
+  box-shadow: 0 6px 24px rgba(0,0,0,.18); font-size: 13px; line-height: 1.35; pointer-events: none;
+}
+.tip div { margin-top: 4px; }
+.tip .muted, .merits .muted { font-size: 12px; }
+.rank { color: var(--accent); font-weight: 700; }
+.merits { padding: 10px 14px; margin: 0 0 12px; max-width: 760px; }
+.merits > div { margin-top: 4px; }
+.merits a { color: var(--accent); }
+.merits-head { display: flex; align-items: center; }

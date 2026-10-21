@@ -42,9 +42,48 @@ function placeHtml(p, status) {
   if (p == null) return `<span class="muted">${esc(status || '—')}</span>`;
   return `<span class="place ${p <= 3 ? 'p' + p : ''}">${p}</span>`;
 }
-function riderLink(name) {
-  return `<a href="#/rider/${encodeURIComponent(nkey(name))}">${esc(name)}</a>`;
+// ---------- заслуги (значок кубка) ----------
+const TITLES = window.TITLES || {};
+function titleOf(name) { return TITLES[nkey(name)] || null; }
+const TROPHY_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10v2h3v3a4 4 0 0 1-4 4h-.3A5 5 0 0 1 13 14.9V18h3v3H8v-3h3v-3.1A5 5 0 0 1 8.3 12H8a4 4 0 0 1-4-4V5h3V3zm0 4H6v1a2 2 0 0 0 1 1.7V7zm10 0v2.7A2 2 0 0 0 18 8V7h-1z"/></svg>';
+function trophyHtml(name) {
+  if (!titleOf(name)) return '';
+  return `<span class="trophy" data-tip="${esc(nkey(name))}" tabindex="0" aria-label="Заслуги">${TROPHY_SVG}</span>`;
 }
+function riderLink(name) {
+  return `<a href="#/rider/${encodeURIComponent(nkey(name))}">${esc(name)}</a>${trophyHtml(name)}`;
+}
+// всплывающая подсказка: одна на страницу, position:fixed — не обрезается прокручиваемыми таблицами
+const $tip = document.createElement('div');
+$tip.className = 'tip';
+$tip.hidden = true;
+document.body.appendChild($tip);
+function showTip(el) {
+  const key = el.dataset.tip;
+  const t = TITLES[key];
+  if (!t) return;
+  const name = people.get(key) ? people.get(key).name : key;
+  $tip.innerHTML = `<b>${esc(name)}</b>${t.rank ? ` · <span class="rank">${esc(t.rank)}</span>` : ''}<div>${esc(t.text)}</div>`
+    + `<div class="muted">По открытым источникам, ссылки — на странице гонщика</div>`;
+  $tip.hidden = false;
+  const r = el.getBoundingClientRect();
+  const w = $tip.offsetWidth, h = $tip.offsetHeight;
+  let x = Math.min(Math.max(8, r.left + r.width / 2 - w / 2), innerWidth - w - 8);
+  let y = r.bottom + 6;
+  if (y + h > innerHeight - 8) y = r.top - h - 6;
+  $tip.style.left = x + 'px';
+  $tip.style.top = Math.max(8, y) + 'px';
+}
+function hideTip() { $tip.hidden = true; }
+document.addEventListener('mouseover', e => { const el = e.target.closest('.trophy'); if (el) showTip(el); });
+document.addEventListener('mouseout', e => { if (e.target.closest('.trophy')) hideTip(); });
+document.addEventListener('focusin', e => { const el = e.target.closest('.trophy'); if (el) showTip(el); });
+document.addEventListener('focusout', hideTip);
+document.addEventListener('click', e => {
+  const el = e.target.closest('.trophy');
+  if (el) { e.preventDefault(); showTip(el); } else hideTip();
+});
+window.addEventListener('scroll', hideTip, true);
 function parseHash() {
   const h = decodeURIComponent(location.hash.replace(/^#\/?/, ''));
   const [path, qs] = h.split('?');
@@ -408,8 +447,13 @@ function drawPerson(key) {
   for (const e of p.entries) for (const x of Object.values(e.heats)) if (x.club && !clubMap.has(nkey(x.club))) clubMap.set(nkey(x.club), x.club);
   const clubs = [...clubMap.values()].slice(0, 4);
   const years = [...new Set(p.entries.flatMap(e => Object.values(e.heats).map(x => x.year)).filter(Boolean))];
-  let html = `<h2 style="font-size:20px">${esc(p.name)}</h2>
+  const t = titleOf(p.name);
+  let html = `<h2 style="font-size:20px">${esc(p.name)}${trophyHtml(p.name)}</h2>
     <div class="sub">${years.length ? 'г.р. ' + years.join('/') + ' · ' : ''}${esc(clubs.join(', '))}</div>
+    ${t ? `<div class="panel merits"><div class="merits-head"><span class="trophy static">${TROPHY_SVG}</span>
+      <b>Заслуги</b>${t.rank ? ` · <span class="rank">${esc(t.rank)}</span>` : ''}</div>
+      <div>${esc(t.text)}</div>
+      <div class="muted">По открытым источникам: ${(t.sources || []).map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/, '').split('/')[0])}</a>`).join(', ')}</div></div>` : ''}
     <div class="stats">
       <div class="panel stat"><b>${p.entries.length}</b><span>стартов (класс/гонка)</span></div>
       <div class="panel stat"><b>${wins}</b><span>побед</span></div>

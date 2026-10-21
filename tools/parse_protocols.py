@@ -544,6 +544,23 @@ def synth_absolute(race):
     return {'cls': 'Абсолют', 'heat': 'abs', 'rows': out, 'synthetic': True}
 
 
+def load_titles(out_races, warnings):
+    """tools/rider_titles.json — спортивные заслуги (значок кубка на сайте); ключ — нормализованное имя."""
+    path = os.path.join(ROOT, 'tools', 'rider_titles.json')
+    if not os.path.exists(path):
+        return {}
+    names = {norm_name(x['name']) for r in out_races for g in r['groups'] for x in g['rows']}
+    out = {}
+    for name, t in json.load(open(path, encoding='utf-8')).items():
+        if name.startswith('_'):
+            continue
+        k = norm_name(name)
+        if k not in names:
+            warnings.append('rider_titles.json: «%s» нет ни в одном протоколе' % name)
+        out[k] = t
+    return out
+
+
 def main():
     files = sorted(glob.glob(os.path.join(PROTO_DIR, '*.pdf')))
     races = OrderedDict()
@@ -643,6 +660,9 @@ def main():
         fh.write('// Сгенерировано tools/parse_protocols.py — не редактировать вручную\n')
         fh.write('window.RACES = ')
         json.dump(out_races, fh, ensure_ascii=False, separators=(',', ':'))
+        fh.write(';\n')
+        fh.write('window.TITLES = ')
+        json.dump(load_titles(out_races, warnings), fh, ensure_ascii=False, separators=(',', ':'))
         fh.write(';\n')
     # оригиналы PDF (без дублей) рядом с сайтом
     shutil.rmtree(PDF_OUT, ignore_errors=True)
